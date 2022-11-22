@@ -1,0 +1,40 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background: purple;
+}
+
+.heading{
+	background:orange;
+	color:red;
+}
+
+.heading h1{
+	margin-left:10px
+}
+
+.collage{
+	margin-top:20px;
+}
+.collage img{
+	width:100%;
+	height:400px;
+}
+.prop{
+	background-color:orange;
+	width:25%;
+	color:red;
+	height:30vh;
+}
+
+.prop ul{
+	margin-top:20px
+}
+
+
+.prop ul li {
+	margin-left:40px
+}
