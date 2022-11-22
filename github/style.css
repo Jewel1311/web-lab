@@ -1,0 +1,101 @@
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "Arial";
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 5vh;
+    margin-bottom:0.67em;
+}
+
+.heading{
+    font-size: 1.5rem;
+    margin:0.67em;
+}
+
+.box{
+    padding:1rem;
+    background-color: #f6f9fb;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid #d6d4d4;
+}
+.credential{
+    display: flex;
+    flex-direction: column;
+}
+
+.box label{
+    font-size: 0.8rem;
+    margin-bottom:.9em
+}
+
+input{
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    background-color: #ffff;
+    border: 1px solid #d6d4d4;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+    height: 2rem;
+    border: none;
+    color:white;
+    background-color: #2fac51;
+    border-radius:5px;
+}
+
+.passlabel{
+    display: flex;
+    justify-content: space-between;
+}
+.passlabel a{
+    font-size: .8rem;
+    color:#1f63f8;
+    text-decoration: none;
+}
+.bottom{
+    text-align: center;
+    width: 270px;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #d6d4d4;
+    padding:1.1rem;
+}
+.bottom a{
+    color:#1f63f8;
+    text-decoration: none;
+}
+.bottom a:hover{
+    border-bottom: 1px solid #1f63f8;
+}
+
+.footer{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a{
+    margin-top: 4.5rem;
+    font-size: 0.8rem;
+    color:#1f63f8;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    border-bottom: 1px solid #1f63f8;
+}
+
+
