@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Job Application</title>
+</head>
+<body style="background-color: skyblue;">
+<marquee onmouseover="this.stop()" onmouseout = "this.start()"><h1 style="color: red;">WELCOME TO FRESHERS WORLD!!!</h1></marquee>
+<div style="display:flex; justify-content:center;">
+<table border= "1" style="text-align:left;">
+	<tr>
+		<th colspan="3"><center>Registration Form</center></th>
+	</tr>
+	<form action="applicant.php" method="POST">
+		<tr>
+			<th>Name</th>
+			<th colspan="2"><input type="text" name="name" required></th>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<th colspan="2">
+				<select name="age" required>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+				</select>
+			</th>
+		</tr>
+		<tr>
+			<th>Password</th>
+			<th colspan="2"><input type="password" name="password1" required></th>
+		</tr>
+		<tr>
+			<th>Re-enter Password</th>
+			<th colspan="2"><input type="password" name="password2" required>></th>
+		</tr>
+		<tr>
+			<th rowspan="5">Select your security question</th>
+                <tr ><th colspan="2"><input type="radio" name="sel" value="What is your pet name?">What is your pet name?</th></tr>
+                <tr><th colspan="2"><input type="radio" name="sel" value="Who is your best friend?">Who is your best friend?</th></tr>
+                <tr><th colspan="2"><input type="radio" name="sel" value="What is your favorite color?">What is your favorite color?</th></tr>
+                <tr><th colspan="2"><input type="radio" name="sel" value="Who is your favorite teacher?">Who is your favorite teacher?</th></tr>
+            </th>
+		</tr>	
+        <tr>
+			<th>Answer of security question</th>
+			<th colspan="2"><input type="text" name="security" required></th>
+		</tr>	
+        <tr>
+			<th>Email id</th>
+			<th colspan="2"><input type="email" name="emailid" required>></th>
+		</tr>
+        <tr>
+            <th>Languages Known</th>
+            <th colspan="2">
+                <input type="checkbox" name="mal">Malayalam
+                <input type="checkbox" name="eng">English
+                <input type="checkbox" name="hin">Hindi
+            </th>
+        </tr>
+        <tr>
+           <th rowspan="3">Phone number</th>
+           <tr>
+                <th>Home</th>
+                <th>Office</th>
+           </tr> 
+           <tr>
+                <th><input type="text" name="hphone"></th>
+                <th><input type="text" name="ophone"></th>
+            </tr>   
+        </tr>
+        <tr>
+            <th align="center"><input type="reset"></th>
+            <th align="center" colspan="2"><input type="submit" value="submit"></th>
+        </tr>
+	</form>
+</table>
+</div>
+</body>
+</html>
